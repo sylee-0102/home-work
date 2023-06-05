@@ -1,6 +1,13 @@
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
 
 li {
   width: 250px;
+  height: auto;
   background-color: #ccc;
   list-style-type: none;
   border-radius: 34px;
@@ -14,6 +21,7 @@ a {
   text-decoration: none;
   background: url(./imges/icon.png) no-repeat;
   padding-left: 20px;
+  display: block;
 }
 
 .first{
