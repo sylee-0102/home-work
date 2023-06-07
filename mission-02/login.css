@@ -1,0 +1,96 @@
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.container {
+  width: 244px;
+  height: 145px;
+  background: linear-gradient(90deg, #ED552F, #E8852E);
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 8px 8px #ccc;
+}
+
+.wrap {
+  width: 226px;
+  height: 98px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  margin: auto;
+}
+
+.container h1 {
+  color: #FF0;
+  font-size: 0.9375em;
+  margin: 0 0 11px 0;
+  font-weight: 600;
+}
+
+.container li {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+#login-form {
+  border-bottom: 1px solid #ccc;
+  font-weight: 400;
+  font-size: 0.875em;
+  position: relative;
+}
+
+.input_01, .input_02 {
+  width: 90px;
+  height: 24px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 8px;
+  font-size: 0.875em;
+  color: #7a7a7a;
+}
+
+.input_01 {
+  margin-bottom: 4px;
+}
+
+.input_02 {
+  margin-bottom: 10px;
+}
+
+#btn {
+  width: 55px;
+  height: 58px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ED552F;
+  border: none;
+  font-weight: 400;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#login-form label {
+  width: 58px;
+  display: inline-block;
+  font-size: 0.875em;
+}
+
+.join {
+  margin-top: 10px;
+  font-size: 0.8125em;
+  color: #181818;
+}
+
+.join li:first-child {
+  float: left;
+}
+
+.join li:last-child {
+  float: right;
+}
+
