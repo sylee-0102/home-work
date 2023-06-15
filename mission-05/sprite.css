@@ -1,0 +1,93 @@
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  padding: 30px;
+}
+
+.wrap {
+  width: 190px;
+  background: linear-gradient(180deg, #ccc, #eee);
+  border-radius: 5px;
+  border: 1px solid #a3a3a3;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 0;
+  font-size: 0.9375em;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.top {
+  position: relative;
+}
+
+.color {
+  color: #ED552F;
+}
+
+.more {
+  font-size: 0.875em;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+.number {
+  text-align: center;
+  display: inline-block;
+  width: 16px;
+  border-radius: 5px;
+  background: #a3a3a3;
+  color: #fff;
+  font-size: 0.6875em;
+  padding: 2px 0;
+}
+/* 
+.wrap li:last-child {
+  margin-bottom: 0;
+} */
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.sprite {
+  list-style: none;
+  font-size: 0.6875em;
+  background-image: url(./images/rank.png);
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.txt {
+  margin-left: 4px;
+}
+
+.one_sprite {
+  background-position: right 3px;
+}
+
+.two_sprite {
+  background-position: right -41px;
+}
+
+.three_sprite {
+  background-position: right -18px;
+}
+
+.four_sprite {
+  background-position: right 3px;
+  margin-bottom: 0;
+}
